@@ -3,8 +3,9 @@ body {
   grid-template-rows: 130px 100vh 500px 500px 500px 200px;
   //  grid-template-rows: 130px 100vh auto auto 500px 200px;
 }
+
 .header {
-  background-color: maroon;
+  background-color: #000;
   display: block;
   #faixa-top {
 	  background-color: darkblue;
@@ -13,20 +14,39 @@ body {
   }
   ul {
 	  list-style-type: none; // serve para remover os pontos no canto de cada li, dentro do ul
+	  display: flex;
+	  justify-content: center;
+	  padding: 0;
+	  li #logo {
+		  position: absolute;
+		  width: 350px;
+		  transform: translate(-50%)
+	  }
   }
 }
+
 .hero {
   background-color: #000;
   #hero-img{
 	  width: 100vw;
   }
 }
+
 .about {
-  background-color: orange;
+  background-color: #fff;
+  position: relative;
+  .logo-about{
+	  width: 200px;
+	  display:block;
+	  margin-left: 50%;
+	  transform: translate(-50%);
+  }
 }
+
 .gallery {
   background-color: grey;
 }
+
 .map {
   background: radial-gradient(
       ellipse farthest-corner at right bottom,
@@ -45,6 +65,7 @@ body {
       #5d4a1f 100%
     );
 }
+
 .footer {
   background-color: maroon;
 }

@@ -3,14 +3,21 @@ body {
   grid-template-rows: 130px 100vh 500px 500px 500px 200px; }
 
 .header {
-  background-color: maroon;
+  background-color: #000;
   display: block; }
   .header #faixa-top {
     background-color: darkblue;
     width: 100vw;
     height: 8px; }
   .header ul {
-    list-style-type: none; }
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0; }
+    .header ul li #logo {
+      position: absolute;
+      width: 350px;
+      transform: translate(-50%); }
 
 .hero {
   background-color: #000; }
@@ -18,7 +25,13 @@ body {
     width: 100vw; }
 
 .about {
-  background-color: orange; }
+  background-color: #fff;
+  position: relative; }
+  .about .logo-about {
+    width: 200px;
+    display: block;
+    margin-left: 50%;
+    transform: translate(-50%); }
 
 .gallery {
   background-color: grey; }
