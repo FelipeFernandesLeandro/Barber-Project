@@ -1,35 +1,38 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Page Title</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" media="screen" href="css/lib/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/lib/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="css/lib/animate.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="css/lib/jquery.fullpage.min.css" />
 	<link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
 	<script src="main.js"></script>
 </head>
+
 <body>
-	<header class="header">
-		<div id="faixa-top"></div>
-		<nav>
-			<ul>
-				<li></li>
-				<li></li>
-				<li><img id="logo" src="img/logo-header-hero.png"/></li>
-				<li></li>
-				<li></li>
-			</ul>
-		</nav>
-	</header>
-	<hero class="hero">
-		<img id="hero-img" src="img/hero-imgs/hero-3.jpg">
-	</hero>
-	<about class="about">
-		<img class="logo-about" src="img/logo-about.png"/>
-	</about>
-	<gallery class="gallery"></gallery>
-	<map class="map"></map>
-	<footer class="footer"></footer>
+	<div id="fullpage">
+		<div class="section test1">Some section</div>
+		<div class="section">
+			<div class="slide test2"> Slide 1 </div>
+			<div class="slide test3"> Slide 2 </div>
+			<div class="slide test4"> Slide 3 </div>
+			<div class="slide test5"> Slide 4 </div>
+		</div>
+		<div class="section test6">Some section</div>
+	</div>
+	<script src="js/lib/jquery-3.3.1.js"></script>
+	<script src="js/lib/jquery.fullpage.min.js"></script>
+	<script src="js/main.js"></script>
+	<script>
+		$(document).ready(function () {
+			$('#fullpage').fullpage();
+		});
+	</script>
 </body>
+
 </html>
