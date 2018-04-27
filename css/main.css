@@ -4,8 +4,8 @@
   width: 100%; }
   .test1 #logo-hero {
     transform: scale(0.65);
-    display: block;
-    margin: -14rem auto 0 auto; }
+    margin: -15vh auto 0 auto;
+    display: inline-block; }
   .test1 .btn-hero {
     position: relative;
     margin: -3rem auto 0 auto;
@@ -21,12 +21,11 @@
     letter-spacing: 0.25rem; }
   .test1 .icon-circle-down {
     bottom: 1rem;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    position: relative;
     text-align: center;
     font-size: 5rem;
-    color: #fff; }
+    color: #fff;
+    margin: 5vh auto 0 auto; }
 
 .test2 {
   background-color: blue;
