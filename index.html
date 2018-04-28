@@ -133,10 +133,11 @@
 			</div>
 
 		</div>
-		<div class="section map">
+		<div class="section map active">
 			<div class="container">
-				<h3>My Google Maps Demo</h3>
-				<div id="map"></div>
+				<div class="map-container">
+					<div id="map"></div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -145,10 +146,19 @@
 	<script src="js/main.js"></script>
 	<script>
 		$(document).ready(function () {
-			$('#fullpage').fullpage();
+			$('#fullpage').fullpage({
+				verticalCentered: false,
+				onLeave: function (index, nextIndex, direction) {},
+				afterLoad: function (anchorLink, index) {},
+				afterRender: function () {},
+				afterResize: function () {},
+				afterResponsive: function (isResponsive) {},
+				afterSlideLoad: function (anchorLink, index, slideAnchor, slideIndex) {},
+				onSlideLeave: function (anchorLink, index, slideIndex, direction, nextSlideIndex) {}
+			});
 		});
 	</script>
-	<!-- <script>
+	<script>
 		function initMap() {
 
 			var styledMapType = new google.maps.StyledMapType(
@@ -297,7 +307,7 @@
 		}
 	</script>
 	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-IyEmArnHd_tHpXsUyGneStrTQM_1rfQ&callback=initMap">
-	</script> -->
+	</script>
 </body>
 
 </html>
