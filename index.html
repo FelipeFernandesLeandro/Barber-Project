@@ -17,9 +17,10 @@
 
 <body>
 	<div id="fullpage">
-		<div class="section test1">
+
+		<div class="section hero">
 			<div class="container">
-				<div class="row align-top">
+				<div class="row">
 					<img src="img/logo-branco.png" id="logo-hero" class="">
 				</div>
 				<div class="row">
@@ -29,19 +30,115 @@
 					<span class="catch-phrase col-12">seja original &#xb7 seja um cavalheiro</span>
 					<span class="catch-phrase col-12">seja bem cuidado</span>
 				</div>
-				<div class="row">
+				<div class="row teste">
 					<span class="icon-circle-down"></span>
 				</div>
 			</div>
 
 		</div>
 		<div class="section">
-			<div class="slide test2"> Slide 1 </div>
-			<div class="slide test3"> Slide 2 </div>
-			<div class="slide test4"> Slide 3 </div>
+			<div class="slide about">
+				<div class="container">
+					<div class="row">
+						<h1 class="col-12">sobre nos</h1>
+						<p class="col-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis aliquid laborum alias dicta pariatur corrupti voluptatem
+							beatae, vitae itaque vero quo autem minus nesciunt neque. Laudantium sunt placeat sint earum? Ipsum et ad enim velit
+							anim et. Eu Lorem irure velit dolore non consequat culpa occaecat eu duis magna. Aliqua ut sint Lorem nisi qui consequat
+							eu tempor consequat et.
+						</p>
+						<p class="col-12"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, vitae consequatur ipsum eaque magnam suscipit sapiente
+							dolores repellendus nulla quia illum laudantium molestias sit eveniet voluptates dolorem incidunt iste excepturi.
+							Laboris ipsum aliquip nostrud non eiusmod exercitation dolor dolor ea sint magna ullamco. Velit amet incididunt occaecat
+							ex quis occaecat velit sint. Exercitation fugiat duis laborum aliquip. Ullamco dolore labore ex aliqua fugiat sunt
+							ipsum dolor sunt cillum deserunt ut.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="slide services">
+				<div class="container">
+					<div class="row">
+						<h1 class="col-12">serviços</h1>
+					</div>
+					<div class="row">
+						<h3 class="col-12">|District 23|</h3>
+						<p class="col-12">
+							Est reiciendis porro fugiat corporis voluptates. Unde accusamus sint magni mollitia optio. Ea dignissimos ipsum qui ut ut
+							dolores ipsum. Pariatur quae qui illum eveniet sed consequatur omnis fugit quia. Est suscipit inventore similique
+							sapiente est explicabo iusto. Aperiam necessitatibus quo beatae voluptas facere ab.
+						</p>
+						<h3 class="col-12">|District 23|</h3>
+						<p class="col-12">
+							Est reiciendis porro fugiat corporis voluptates. Unde accusamus sint magni mollitia optio. Ea dignissimos ipsum qui ut ut
+							dolores ipsum. Pariatur quae qui illum eveniet sed consequatur omnis fugit quia. Est suscipit inventore similique
+							sapiente est explicabo iusto. Aperiam necessitatibus quo beatae voluptas facere ab.
+						</p>
+						<h3 class="col-12">|District 23|</h3>
+						<p class="col-12">
+							Est reiciendis porro fugiat corporis voluptates. Unde accusamus sint magni mollitia optio. Ea dignissimos ipsum qui ut ut
+							dolores ipsum. Pariatur quae qui illum eveniet sed consequatur omnis fugit quia. Est suscipit inventore similique
+							sapiente est explicabo iusto. Aperiam necessitatibus quo beatae voluptas facere ab.
+						</p>
+						<h3 class="col-12">|District 23|</h3>
+						<p class="col-12">
+							Est reiciendis porro fugiat corporis voluptates. Unde accusamus sint magni mollitia optio. Ea dignissimos ipsum qui ut ut
+							dolores ipsum. Pariatur quae qui illum eveniet sed consequatur omnis fugit quia. Est suscipit inventore similique
+							sapiente est explicabo iusto. Aperiam necessitatibus quo beatae voluptas facere ab.
+						</p>
+					</div>
+				</div>
+				<div class="slide meet-us">
+					<div class="container">
+						<div class="">
+							<div class="row">
+								<h1 class="col-12">venha nos conhecer</h1>
+							</div>
+							<div class="row">
+								<img src="../img/marcos-photo.jpg" class="marcos-photo">
+							</div>
+							<div class="row">
+								<h2 class="col-12">marcos bergamini</h2>
+							</div>
+							<div class="row">
+								<h4 class="col-12">barbeiro espedifdjsifji sdfijd sofjd sdif jsdo dsdsf</h4>
+							</div>
+						</div>
+						<div class="">
+							<div class="row">
+								<span class="col-4">icone de tel + numero</span>
+								<span class="col-4">facebook instagram</span>
+								<span class="col-4">icone + email</span>
+							</div>
+							<div class="row">
+								<h6>barbearia bergamini copyright @ 20XX todos direitos reservados</h6>
+							</div>
+							<div class="row">
+								<span>mastercard ico</span>
+								<span>visa</span>
+								<span>cartao1</span>
+								<span>cartao2</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="slide gallery">
+					<div class="container">
+						<img src="">
+						<img src="">
+						<img src="">
+						<img src="">
+						<img src="">
+					</div>
+				</div>
+			</div>
+
 		</div>
-		<div class="section test6">Some section</div>
-	</div>
+		<div class="section map">
+			<div class="container">
+				<h3>My Google Maps Demo</h3>
+				<div id="map"></div>
+			</div>
+		</div>
 	</div>
 	<script src="js/lib/jquery-3.3.1.js"></script>
 	<script src="js/lib/jquery.fullpage.min.js"></script>
@@ -51,6 +148,156 @@
 			$('#fullpage').fullpage();
 		});
 	</script>
+	<!-- <script>
+		function initMap() {
+
+			var styledMapType = new google.maps.StyledMapType(
+				[{
+						"elementType": "geometry",
+						"stylers": [{
+							"color": "#242f3e"
+						}]
+					},
+					{
+						"elementType": "labels.text.fill",
+						"stylers": [{
+							"color": "#746855"
+						}]
+					},
+					{
+						"elementType": "labels.text.stroke",
+						"stylers": [{
+							"color": "#242f3e"
+						}]
+					},
+					{
+						"featureType": "administrative.locality",
+						"elementType": "labels.text.fill",
+						"stylers": [{
+							"color": "#d59563"
+						}]
+					},
+					{
+						"featureType": "poi",
+						"elementType": "labels.text.fill",
+						"stylers": [{
+							"color": "#d59563"
+						}]
+					},
+					{
+						"featureType": "poi.park",
+						"elementType": "geometry",
+						"stylers": [{
+							"color": "#263c3f"
+						}]
+					},
+					{
+						"featureType": "poi.park",
+						"elementType": "labels.text.fill",
+						"stylers": [{
+							"color": "#6b9a76"
+						}]
+					},
+					{
+						"featureType": "road",
+						"elementType": "geometry",
+						"stylers": [{
+							"color": "#38414e"
+						}]
+					},
+					{
+						"featureType": "road",
+						"elementType": "geometry.stroke",
+						"stylers": [{
+							"color": "#212a37"
+						}]
+					},
+					{
+						"featureType": "road",
+						"elementType": "labels.text.fill",
+						"stylers": [{
+							"color": "#9ca5b3"
+						}]
+					},
+					{
+						"featureType": "road.highway",
+						"elementType": "geometry",
+						"stylers": [{
+							"color": "#746855"
+						}]
+					},
+					{
+						"featureType": "road.highway",
+						"elementType": "geometry.stroke",
+						"stylers": [{
+							"color": "#1f2835"
+						}]
+					},
+					{
+						"featureType": "road.highway",
+						"elementType": "labels.text.fill",
+						"stylers": [{
+							"color": "#f3d19c"
+						}]
+					},
+					{
+						"featureType": "transit",
+						"elementType": "geometry",
+						"stylers": [{
+							"color": "#2f3948"
+						}]
+					},
+					{
+						"featureType": "transit.station",
+						"elementType": "labels.text.fill",
+						"stylers": [{
+							"color": "#d59563"
+						}]
+					},
+					{
+						"featureType": "water",
+						"elementType": "geometry",
+						"stylers": [{
+							"color": "#17263c"
+						}]
+					},
+					{
+						"featureType": "water",
+						"elementType": "labels.text.fill",
+						"stylers": [{
+							"color": "#515c6d"
+						}]
+					},
+					{
+						"featureType": "water",
+						"elementType": "labels.text.stroke",
+						"stylers": [{
+							"color": "#17263c"
+						}]
+					}
+				], {
+					name: 'Styled Map'
+				});
+			var map = new google.maps.Map(document.getElementById('map'), {
+				center: {
+					lat: -23.248352856822155,
+					lng: -45.90221569999994
+				},
+				zoom: 17,
+				mapTypeControlOptions: {
+					mapTypeIds: ['roadmap', 'satellite', 'hybrid', 'terrain',
+						'styled_map'
+					]
+				}
+			});
+
+			//Associate the styled map with the MapTypeId and set it to display.
+			map.mapTypes.set('styled_map', styledMapType);
+			map.setMapTypeId('styled_map');
+		}
+	</script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-IyEmArnHd_tHpXsUyGneStrTQM_1rfQ&callback=initMap">
+	</script> -->
 </body>
 
 </html>
