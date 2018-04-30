@@ -1,0 +1,49 @@
+.hero {
+  background: url(../img/hero-imgs/barber-shop-desfocado.png) no-repeat center center fixed;
+  background-size: cover; }
+  .hero #logo-hero {
+    margin: 5vh auto 0 auto;
+    display: inline-block;
+    width: 35%;
+    height: 35%;
+    min-width: 185px; }
+  .hero .btn-hero {
+    position: relative;
+    margin: 1rem auto 0 auto;
+    background-color: #ba1f30;
+    text-transform: uppercase;
+    border: #ba1f30 solid; }
+  .hero .catch-phrase:first-child {
+    margin: 1rem auto 0 auto; }
+  .hero .catch-phrase {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.25rem; }
+  .hero .icon-circle-down {
+    bottom: 1rem;
+    position: absolute;
+    left: calc(50% - 1.5rem);
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 3rem;
+    color: #fff;
+    margin: 5vh auto 0 auto; }
+    @media (max-height: 420px) {
+      .hero .icon-circle-down {
+        display: none; } }
+  .hero #arrow-down {
+    -webkit-vendor-animation-duration: 3s;
+    -moz-vendor-animation-duration: 3s;
+    -ms-vendor-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-vendor-animation-delay: 3.5s;
+    -moz-vendor-animation-delay: 3.5s;
+    -ms-vendor-animation-delay: 3.5s;
+    animation-delay: 3.5s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -ms-vendor-animation-iteration-count: infinite;
+    animation-iteration-count: infinite; }
+
+/*# sourceMappingURL=hero.css.map */
