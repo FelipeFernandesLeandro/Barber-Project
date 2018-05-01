@@ -1,0 +1,103 @@
+@font-face {
+  font-family: 'icomoon-barber';
+  src:  url('fonts/icomoon-barber.eot?ur5zs');
+  src:  url('fonts/icomoon-barber.eot?ur5zs#iefix') format('embedded-opentype'),
+    url('fonts/icomoon-barber.ttf?ur5zs') format('truetype'),
+    url('fonts/icomoon-barber.woff?ur5zs') format('woff'),
+    url('fonts/icomoon-barber.svg?ur5zs#icomoon-barber') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-barber-"], [class*=" icon-barber-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon-barber' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  
+  /* Enable Ligatures ================ */
+  letter-spacing: 0;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-barber-envelope:before {
+  content: "\e90c";
+}
+.icon-barber-instagram:before {
+  content: "\e908";
+  color: #e4405f;
+}
+.icon-barber-cc-mastercard:before {
+  content: "\e909";
+}
+.icon-barber-cc-visa:before {
+  content: "\e90a";
+}
+.icon-barber-telegram:before {
+  content: "\e90b";
+}
+.icon-barber-arrow-circle-down:before {
+  content: "\e900";
+}
+.icon-barber-arrow-circle-up:before {
+  content: "\e901";
+}
+.icon-barber-arrow-circle-right:before {
+  content: "\e902";
+}
+.icon-barber-arrow-circle-left:before {
+  content: "\e903";
+}
+.icon-barber-arrow-right:before {
+  content: "\e904";
+}
+.icon-barber-arrow-left:before {
+  content: "\e905";
+}
+.icon-barber-arrow-down:before {
+  content: "\e906";
+}
+.icon-barber-arrow-up:before {
+  content: "\e907";
+}
+.icon-barber-coin-dollar:before {
+  content: "\e93b";
+}
+.icon-barber-credit-card:before {
+  content: "\e93f";
+}
+.icon-barber-phone:before {
+  content: "\e942";
+}
+.icon-barber-circle-up:before {
+  content: "\ea41";
+}
+.icon-barber-circle-right:before {
+  content: "\ea42";
+}
+.icon-barber-circle-down:before {
+  content: "\ea43";
+}
+.icon-barber-circle-left:before {
+  content: "\ea44";
+}
+.icon-barber-facebook2:before {
+  content: "\ea91";
+}
+.icon-barber-instagram2:before {
+  content: "\ea92";
+}

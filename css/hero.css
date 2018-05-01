@@ -1,6 +1,14 @@
 .hero {
   background: url(../img/hero-imgs/barber-shop-desfocado.png) no-repeat center center fixed;
   background-size: cover; }
+  .hero span {
+    font-family: "Montserrat", sans-serif; }
+    @media (max-height: 420px) {
+      .hero span {
+        font-size: 0.8rem; } }
+    @media (max-width: 420px) {
+      .hero span {
+        font-size: 0.8rem; } }
   .hero #logo-hero {
     margin: 5vh auto 0 auto;
     display: inline-block;
@@ -12,26 +20,27 @@
     margin: 1rem auto 0 auto;
     background-color: #ba1f30;
     text-transform: uppercase;
-    border: #ba1f30 solid; }
+    border: #ba1f30 solid;
+    font-family: "Montserrat", sans-serif; }
+    .hero .btn-hero:hover {
+      box-shadow: 2px 2px 0.5rem rgba(255, 255, 255, 0.2); }
+    @media (max-height: 420px) {
+      .hero .btn-hero {
+        font-size: 0.8rem;
+        margin: 0.25rem auto 0 auto; } }
+    @media (max-width: 420px) {
+      .hero .btn-hero {
+        font-size: 0.8rem; } }
   .hero .catch-phrase:first-child {
     margin: 1rem auto 0 auto; }
+    @media (max-height: 420px) {
+      .hero .catch-phrase:first-child {
+        margin: 0.25rem auto 0 auto; } }
   .hero .catch-phrase {
     color: #fff;
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 0.25rem; }
-  .hero .icon-circle-down {
-    bottom: 1rem;
-    position: absolute;
-    left: calc(50% - 1.5rem);
-    transform: translateX(-50%);
-    text-align: center;
-    font-size: 3rem;
-    color: #fff;
-    margin: 5vh auto 0 auto; }
-    @media (max-height: 420px) {
-      .hero .icon-circle-down {
-        display: none; } }
   .hero #arrow-down {
     -webkit-vendor-animation-duration: 3s;
     -moz-vendor-animation-duration: 3s;
@@ -44,6 +53,17 @@
     -webkit-animation-iteration-count: infinite;
     -moz-animation-iteration-count: infinite;
     -ms-vendor-animation-iteration-count: infinite;
-    animation-iteration-count: infinite; }
+    animation-iteration-count: infinite;
+    bottom: 1rem;
+    position: absolute;
+    left: calc(50% - 1.5rem);
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 3rem;
+    color: #fff;
+    margin: 5vh auto 0 auto; }
+    @media (max-height: 420px) {
+      .hero #arrow-down {
+        display: none; } }
 
 /*# sourceMappingURL=hero.css.map */

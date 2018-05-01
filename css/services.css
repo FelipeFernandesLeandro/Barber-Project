@@ -6,5 +6,31 @@
   .services h3,
   .services p {
     margin: 1rem; }
+  @media (max-height: 420px) {
+    .services {
+      font-size: 0.8rem; }
+      .services h1 {
+        font-size: 1.8rem; }
+      .services h3 {
+        font-size: 1.4rem; }
+      .services h3,
+      .services h1,
+      .services p {
+        -webkit-box-flex: 0 !important;
+        flex: 0 0 91.666667% !important;
+        max-width: 91.666667% !important; } }
+  @media (max-width: 420px) {
+    .services {
+      font-size: 0.8rem; }
+      .services h1 {
+        font-size: 1.8rem; }
+      .services h3 {
+        font-size: 1.4rem; }
+      .services h3,
+      .services h1,
+      .services p {
+        -webkit-box-flex: 0 !important;
+        flex: 0 0 91.666667% !important;
+        max-width: 91.666667% !important; } }
 
 /*# sourceMappingURL=services.css.map */

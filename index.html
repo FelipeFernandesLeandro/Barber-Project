@@ -9,11 +9,13 @@
 	<link rel="stylesheet" type="text/css" media="screen" href="css/lib/normalize.css" />
 	<link rel="stylesheet" type="text/css" href="css/lib/bootstrap.min.css" />
 	<link rel="stylesheet" type="text/css" media="screen" href="css/lib/animate.css" />
+	<script src="js/lib/jquery-3.3.1.js"></script>
 	<link rel="stylesheet" type="text/css" media="screen" href="css/lib/jquery.fullpage.min.css" />
+	<script src="js/lib/jquery.nanogallery2.min.js"></script>
 	<link rel="stylesheet" type="text/css" media="screen" href="css/nanogallery2.min.css" />
 	<link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
-	<link rel="stylesheet" type="text/css" media="screen" href="css/fonts.css" />
-	<script src="main.js"></script>
+	<link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab" rel="stylesheet">
 </head>
 
 <body>
@@ -33,13 +35,13 @@
 				</div>
 				<div class="row teste">
 					<a href="#secondPage">
-						<span class="icon-circle-down animated infinite bounce" id="arrow-down"></span>
+						<span class="icon-barber-circle-down animated infinite bounce" id="arrow-down"></span>
 					</a>
 				</div>
 			</div>
 
 		</div>
-		<div class="section">
+		<div class="section active">
 			<div class="slide about">
 				<div class="container flex-test">
 					<div class="row">
@@ -86,12 +88,12 @@
 						</p>
 					</div>
 				</div>
-				<div class="slide meet-us">
+				<div class="slide meet-us active">
 					<div class="flex-test">
 						<div class="meet-us-title">
 							<h1>venha nos conhecer</h1>
 							<figure>
-								<img src="img/marcos-photo.jpg" class="marcos-photo" style="width: 300px; height: 300px;">
+								<img src="img/marcos-photo.jpg" id="marcos-photo">
 							</figure>
 							<h2 class="barber-name">marcos bergamini</h2>
 							<h4 class="barber-description">barbeiro espedifdjsifji sdfijd sofjd sdif jsdo dsdsf</h4>
@@ -99,29 +101,27 @@
 						<div class="contacts">
 							<div class="medias container">
 								<div class="phone">
-									<span class="icon-phone"></span>(88) 8922-0215</div>
+									<span class="icon-barber-phone"></span>(88) 8922-0215</div>
 								<div class="social">
 									<a>
-										<span class="icon-facebook-with-circle"></span>
+										<span class="icon-barber-instagram2"></span>
 									</a>
 									<a>
-										<span class="icon-instagram-with-circle"></span>
+										<span class="icon-barber-facebook2"></span>
 									</a>
 								</div>
-								<div class="mail">
-									<a>
-										<span class="icon-envelope2"></span>
-										Gustavo.Costa@gmail.com
-									</a>
-								</div>
+								<a class="mail">
+									<span class="icon-barber-envelope"></span>
+									Gustavo.Costa@gmail.com
+								</a>
 							</div>
 							<h6>Barbearia Bergamini Copyright &#9400;
 								<span id="year"></span> todos os direitos reservados</h6>
 							<div class="payments">
-								<span class="icon-cc-mastercard"></span>
-								<span class="icon-cc-visa"></span>
-								<span class="icon-credit-card2"></span>
-								<span class="icon-coin-dollar"></span>
+								<span class="icon-barber-cc-mastercard"></span>
+								<span class="icon-barber-cc-visa"></span>
+								<span class="icon-barber-credit-card"></span>
+								<span class="icon-barber-coin-dollar"></span>
 							</div>
 						</div>
 					</div>
@@ -159,8 +159,6 @@
 			</div>
 		</div>
 	</div>
-	<script src="js/lib/jquery-3.3.1.js"></script>
-	<script src="js/lib/jquery.nanogallery2.min.js"></script>
 	<script src="js/lib/scrolloverflow.min.js"></script>
 	<script src="js/lib/jquery.fullpage.min.js"></script>
 	<script src="js/main.js"></script>

@@ -4,14 +4,24 @@ h3,
 h4 {
   text-transform: uppercase;
   text-align: center;
-  letter-spacing: 0.25rem; }
+  letter-spacing: 0.25rem;
+  font-family: 'Montserrat', sans-serif; }
 
 p {
-  text-align: center; }
+  text-align: center;
+  font-family: 'Roboto Slab', serif; }
 
 .hero {
   background: url(../img/hero-imgs/barber-shop-desfocado.png) no-repeat center center fixed;
   background-size: cover; }
+  .hero span {
+    font-family: "Montserrat", sans-serif; }
+    @media (max-height: 420px) {
+      .hero span {
+        font-size: 0.8rem; } }
+    @media (max-width: 420px) {
+      .hero span {
+        font-size: 0.8rem; } }
   .hero #logo-hero {
     margin: 5vh auto 0 auto;
     display: inline-block;
@@ -23,26 +33,27 @@ p {
     margin: 1rem auto 0 auto;
     background-color: #ba1f30;
     text-transform: uppercase;
-    border: #ba1f30 solid; }
+    border: #ba1f30 solid;
+    font-family: "Montserrat", sans-serif; }
+    .hero .btn-hero:hover {
+      box-shadow: 2px 2px 0.5rem rgba(255, 255, 255, 0.2); }
+    @media (max-height: 420px) {
+      .hero .btn-hero {
+        font-size: 0.8rem;
+        margin: 0.25rem auto 0 auto; } }
+    @media (max-width: 420px) {
+      .hero .btn-hero {
+        font-size: 0.8rem; } }
   .hero .catch-phrase:first-child {
     margin: 1rem auto 0 auto; }
+    @media (max-height: 420px) {
+      .hero .catch-phrase:first-child {
+        margin: 0.25rem auto 0 auto; } }
   .hero .catch-phrase {
     color: #fff;
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 0.25rem; }
-  .hero .icon-circle-down {
-    bottom: 1rem;
-    position: absolute;
-    left: calc(50% - 1.5rem);
-    transform: translateX(-50%);
-    text-align: center;
-    font-size: 3rem;
-    color: #fff;
-    margin: 5vh auto 0 auto; }
-    @media (max-height: 420px) {
-      .hero .icon-circle-down {
-        display: none; } }
   .hero #arrow-down {
     -webkit-vendor-animation-duration: 3s;
     -moz-vendor-animation-duration: 3s;
@@ -55,7 +66,18 @@ p {
     -webkit-animation-iteration-count: infinite;
     -moz-animation-iteration-count: infinite;
     -ms-vendor-animation-iteration-count: infinite;
-    animation-iteration-count: infinite; }
+    animation-iteration-count: infinite;
+    bottom: 1rem;
+    position: absolute;
+    left: calc(50% - 1.5rem);
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 3rem;
+    color: #fff;
+    margin: 5vh auto 0 auto; }
+    @media (max-height: 420px) {
+      .hero #arrow-down {
+        display: none; } }
 
 .about {
   background-color: lavender;
@@ -68,6 +90,20 @@ p {
     flex-direction: column;
     justify-content: center;
     text-align: center; }
+    @media (max-height: 420px) {
+      .about .flex-test {
+        font-size: 0.8rem; }
+        .about .flex-test h1 {
+          font-size: 1.8rem; }
+        .about .flex-test p {
+          margin-top: .25rem; } }
+    @media (max-width: 420px) {
+      .about .flex-test {
+        font-size: 0.8rem; }
+        .about .flex-test h1 {
+          font-size: 1.8rem; }
+        .about .flex-test p {
+          margin-top: .25rem; } }
 
 .services {
   background-color: #1f1f1f;
@@ -77,6 +113,32 @@ p {
   .services h3,
   .services p {
     margin: 1rem; }
+  @media (max-height: 420px) {
+    .services {
+      font-size: 0.8rem; }
+      .services h1 {
+        font-size: 1.8rem; }
+      .services h3 {
+        font-size: 1.4rem; }
+      .services h3,
+      .services h1,
+      .services p {
+        -webkit-box-flex: 0 !important;
+        flex: 0 0 91.666667% !important;
+        max-width: 91.666667% !important; } }
+  @media (max-width: 420px) {
+    .services {
+      font-size: 0.8rem; }
+      .services h1 {
+        font-size: 1.8rem; }
+      .services h3 {
+        font-size: 1.4rem; }
+      .services h3,
+      .services h1,
+      .services p {
+        -webkit-box-flex: 0 !important;
+        flex: 0 0 91.666667% !important;
+        max-width: 91.666667% !important; } }
 
 .meet-us {
   background-color: lavender;
@@ -89,19 +151,12 @@ p {
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out; }
   .meet-us h1 {
-    margin-bottom: 6vh; }
+    margin-bottom: 4vh; }
   .meet-us h2,
   .meet-us h4 {
-    margin-top: 1.5rem; }
-  @media (max-width: 600px) {
-    .meet-us {
-      font-size: 0.8rem; }
-      .meet-us h1 {
-        font-size: 2rem; }
-      .meet-us h2 {
-        font-size: 1.25rem; }
-      .meet-us h4 {
-        font-size: 1rem; } }
+    margin-top: 3vh; }
+  .meet-us h4 {
+    font-family: "Roboto Slab", serif; }
   .meet-us .flex-test {
     height: 100vh;
     display: flex;
@@ -113,7 +168,7 @@ p {
       display: flex;
       flex-direction: column; }
       .meet-us .flex-test .meet-us-title h1 {
-        margin-top: 2rem; }
+        margin-top: 4vh; }
       .meet-us .flex-test .meet-us-title figure {
         border-radius: 50%;
         width: auto;
@@ -123,6 +178,25 @@ p {
         overflow: hidden;
         box-shadow: 0 0 5px #ddd;
         margin: 0 auto; }
+        @media (max-height: 420px) {
+          .meet-us .flex-test .meet-us-title figure {
+            width: 185px;
+            height: 185px; } }
+        @media (max-width: 420px) {
+          .meet-us .flex-test .meet-us-title figure {
+            width: 185px;
+            height: 185px; } }
+        .meet-us .flex-test .meet-us-title figure #marcos-photo {
+          width: 300;
+          height: 300px; }
+          @media (max-height: 420px) {
+            .meet-us .flex-test .meet-us-title figure #marcos-photo {
+              width: 185px;
+              height: 185px; } }
+          @media (max-width: 420px) {
+            .meet-us .flex-test .meet-us-title figure #marcos-photo {
+              width: 185px;
+              height: 185px; } }
       .meet-us .flex-test .meet-us-title figure img {
         -webkit-transition: all 0.5s linear;
         transition: all 0.5s linear;
@@ -141,8 +215,8 @@ p {
       letter-spacing: 0.2rem;
       padding-bottom: 2rem;
       /*ICONS*/ }
-      .meet-us .flex-test .contacts [class^="icon-"],
-      .meet-us .flex-test .contacts [class*=" icon-"] {
+      .meet-us .flex-test .contacts [class^="icon-barber-"],
+      .meet-us .flex-test .contacts [class*=" icon-barber-"] {
         font-size: 2rem; }
       .meet-us .flex-test .contacts .medias {
         text-align: center;
@@ -173,6 +247,46 @@ p {
           margin: 0.25rem; }
       .meet-us .flex-test .contacts h6 {
         text-transform: capitalize; }
+  @media (max-width: 600px) {
+    .meet-us {
+      font-size: 0.8rem; }
+      .meet-us h1 {
+        font-size: 2rem;
+        margin-bottom: 2vh;
+        margin-top: 1vh; }
+      .meet-us h2 {
+        font-size: 1.25rem;
+        margin-top: 2vh; }
+      .meet-us h4 {
+        font-size: 1rem;
+        margin-top: 1vh; }
+      .meet-us h6 {
+        font-size: 1rem; }
+      .meet-us [class^="icon-barber-"],
+      .meet-us [class*=" icon-barber-"] {
+        font-size: 1.5rem; }
+      .meet-us .flex-test .meet-us-title h1 {
+        margin-top: 1vh; }
+      .meet-us .medias {
+        display: flex;
+        flex-direction: column;
+        text-align: center; }
+        .meet-us .medias .phone {
+          justify-content: center; } }
+  @media (max-height: 420px), (max-width: 420px) {
+    .meet-us {
+      font-size: 0.7rem; }
+      .meet-us h1 {
+        font-size: 1.8rem; }
+      .meet-us h2 {
+        font-size: 1.1rem; }
+      .meet-us h4 {
+        font-size: 0.85rem; }
+      .meet-us h6 {
+        font-size: 0.7rem; }
+      .meet-us .flex-test .contacts [class^="icon-barber-"],
+      .meet-us .flex-test .contacts [class*=" icon-barber-"] {
+        font-size: 1rem; } }
 
 .gallery {
   background-color: #1f1f1f;

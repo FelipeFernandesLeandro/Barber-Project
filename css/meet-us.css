@@ -9,19 +9,12 @@
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out; }
   .meet-us h1 {
-    margin-bottom: 6vh; }
+    margin-bottom: 4vh; }
   .meet-us h2,
   .meet-us h4 {
-    margin-top: 1.5rem; }
-  @media (max-width: 600px) {
-    .meet-us {
-      font-size: 0.8rem; }
-      .meet-us h1 {
-        font-size: 2rem; }
-      .meet-us h2 {
-        font-size: 1.25rem; }
-      .meet-us h4 {
-        font-size: 1rem; } }
+    margin-top: 3vh; }
+  .meet-us h4 {
+    font-family: "Roboto Slab", serif; }
   .meet-us .flex-test {
     height: 100vh;
     display: flex;
@@ -33,7 +26,7 @@
       display: flex;
       flex-direction: column; }
       .meet-us .flex-test .meet-us-title h1 {
-        margin-top: 2rem; }
+        margin-top: 4vh; }
       .meet-us .flex-test .meet-us-title figure {
         border-radius: 50%;
         width: auto;
@@ -43,6 +36,25 @@
         overflow: hidden;
         box-shadow: 0 0 5px #ddd;
         margin: 0 auto; }
+        @media (max-height: 420px) {
+          .meet-us .flex-test .meet-us-title figure {
+            width: 185px;
+            height: 185px; } }
+        @media (max-width: 420px) {
+          .meet-us .flex-test .meet-us-title figure {
+            width: 185px;
+            height: 185px; } }
+        .meet-us .flex-test .meet-us-title figure #marcos-photo {
+          width: 300;
+          height: 300px; }
+          @media (max-height: 420px) {
+            .meet-us .flex-test .meet-us-title figure #marcos-photo {
+              width: 185px;
+              height: 185px; } }
+          @media (max-width: 420px) {
+            .meet-us .flex-test .meet-us-title figure #marcos-photo {
+              width: 185px;
+              height: 185px; } }
       .meet-us .flex-test .meet-us-title figure img {
         -webkit-transition: all 0.5s linear;
         transition: all 0.5s linear;
@@ -61,8 +73,8 @@
       letter-spacing: 0.2rem;
       padding-bottom: 2rem;
       /*ICONS*/ }
-      .meet-us .flex-test .contacts [class^="icon-"],
-      .meet-us .flex-test .contacts [class*=" icon-"] {
+      .meet-us .flex-test .contacts [class^="icon-barber-"],
+      .meet-us .flex-test .contacts [class*=" icon-barber-"] {
         font-size: 2rem; }
       .meet-us .flex-test .contacts .medias {
         text-align: center;
@@ -93,5 +105,45 @@
           margin: 0.25rem; }
       .meet-us .flex-test .contacts h6 {
         text-transform: capitalize; }
+  @media (max-width: 600px) {
+    .meet-us {
+      font-size: 0.8rem; }
+      .meet-us h1 {
+        font-size: 2rem;
+        margin-bottom: 2vh;
+        margin-top: 1vh; }
+      .meet-us h2 {
+        font-size: 1.25rem;
+        margin-top: 2vh; }
+      .meet-us h4 {
+        font-size: 1rem;
+        margin-top: 1vh; }
+      .meet-us h6 {
+        font-size: 1rem; }
+      .meet-us [class^="icon-barber-"],
+      .meet-us [class*=" icon-barber-"] {
+        font-size: 1.5rem; }
+      .meet-us .flex-test .meet-us-title h1 {
+        margin-top: 1vh; }
+      .meet-us .medias {
+        display: flex;
+        flex-direction: column;
+        text-align: center; }
+        .meet-us .medias .phone {
+          justify-content: center; } }
+  @media (max-height: 420px), (max-width: 420px) {
+    .meet-us {
+      font-size: 0.7rem; }
+      .meet-us h1 {
+        font-size: 1.8rem; }
+      .meet-us h2 {
+        font-size: 1.1rem; }
+      .meet-us h4 {
+        font-size: 0.85rem; }
+      .meet-us h6 {
+        font-size: 0.7rem; }
+      .meet-us .flex-test .contacts [class^="icon-barber-"],
+      .meet-us .flex-test .contacts [class*=" icon-barber-"] {
+        font-size: 1rem; } }
 
 /*# sourceMappingURL=meet-us.css.map */

@@ -9,5 +9,19 @@
     flex-direction: column;
     justify-content: center;
     text-align: center; }
+    @media (max-height: 420px) {
+      .about .flex-test {
+        font-size: 0.8rem; }
+        .about .flex-test h1 {
+          font-size: 1.8rem; }
+        .about .flex-test p {
+          margin-top: .25rem; } }
+    @media (max-width: 420px) {
+      .about .flex-test {
+        font-size: 0.8rem; }
+        .about .flex-test h1 {
+          font-size: 1.8rem; }
+        .about .flex-test p {
+          margin-top: .25rem; } }
 
 /*# sourceMappingURL=about.css.map */

@@ -4,9 +4,11 @@ h3,
 h4 {
   text-transform: uppercase;
   text-align: center;
-  letter-spacing: 0.25rem; }
+  letter-spacing: 0.25rem;
+  font-family: 'Montserrat', sans-serif; }
 
 p {
-  text-align: center; }
+  text-align: center;
+  font-family: 'Roboto Slab', serif; }
 
 /*# sourceMappingURL=index.css.map */
