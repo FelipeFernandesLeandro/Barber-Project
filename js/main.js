@@ -32,7 +32,8 @@ $(document).ready(function() {
     thumbnailBorderVertical: 0,
     galleryMaxRows: 1,
     galleryDisplayMode: "rows",
-    galleryDisplayMode: "pagination",
+	galleryDisplayMode: "pagination",
+	thumbnailHoverEffect2: "imageScaleIn80|imageGrayOff",
     itemsBaseURL: "../img/gallery/",
     galleryMosaic: [
       { c: 1, r: 1, w: 2, h: 1.5 },
@@ -44,14 +45,14 @@ $(document).ready(function() {
     ],
 
     items: [
-      { src: "img_01.jpg", srct: "img_01.jpg", title: "Title Image 1" },
-      { src: "img_02.jpg", srct: "img_02.jpg", title: "Title Image 2" },
-      { src: "img_03.jpg", srct: "img_03.jpg", title: "Title Image 3" },
-      { src: "img_04.jpg", srct: "img_04.jpg", title: "Title Image 4" },
-      { src: "img_05.jpg", srct: "img_05.jpg", title: "Title Image 5" },
-      { src: "img_06.jpg", srct: "img_06.jpg", title: "Title Image 6" },
-      { src: "img_07.jpg", srct: "img_07.jpg", title: "Title Image 7" },
-      { src: "img_08.jpg", srct: "img_08.jpg", title: "Title Image 8" },
+      { src: "img_01.jpg", srct: "img_01.jpg"},
+      { src: "img_02.jpg", srct: "img_02.jpg"},
+      { src: "img_03.jpg", srct: "img_03.jpg"},
+      { src: "img_04.jpg", srct: "img_04.jpg"},
+      { src: "img_05.jpg", srct: "img_05.jpg"},
+      { src: "img_06.jpg", srct: "img_06.jpg"},
+      { src: "img_07.jpg", srct: "img_07.jpg"},
+      { src: "img_08.jpg", srct: "img_08.jpg"},
     ]
   });
 });
