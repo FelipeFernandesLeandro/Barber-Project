@@ -34,7 +34,7 @@ $(document).ready(function() {
     galleryDisplayMode: "rows",
 	galleryDisplayMode: "pagination",
 	thumbnailHoverEffect2: "imageScaleIn80|imageGrayOff",
-    itemsBaseURL: "../img/gallery/",
+    itemsBaseURL: "img/gallery/",
     galleryMosaic: [
       { c: 1, r: 1, w: 2, h: 1.5 },
       { c: 3, r: 1, w: 1, h: 1 },
