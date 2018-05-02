@@ -5,10 +5,17 @@ h4 {
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 0.25rem;
-  font-family: 'Montserrat', sans-serif; }
+  font-family: "Montserrat", sans-serif; }
 
 p {
   text-align: center;
-  font-family: 'Roboto Slab', serif; }
+  font-family: "Roboto Slab", serif; }
+
+a {
+  text-decoration: inherit;
+  color: inherit; }
+  a:hover {
+    text-decoration: inherit;
+    color: inherit; }
 
 /*# sourceMappingURL=index.css.map */

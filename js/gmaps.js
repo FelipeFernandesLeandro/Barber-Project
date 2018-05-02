@@ -182,8 +182,8 @@ function initMap() {
   var image = "img/barber-pole-84px-80px.png";
   var beachMarker = new google.maps.Marker({
     position: {
-      lat: -23.2484764,
-      lng: -45.9016315
+      lat: -23.2486321,
+      lng: -45.9015569
     },
     map: map,
     icon: image

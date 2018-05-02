@@ -5,11 +5,18 @@ h4 {
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 0.25rem;
-  font-family: 'Montserrat', sans-serif; }
+  font-family: "Montserrat", sans-serif; }
 
 p {
   text-align: center;
-  font-family: 'Roboto Slab', serif; }
+  font-family: "Roboto Slab", serif; }
+
+a {
+  text-decoration: inherit;
+  color: inherit; }
+  a:hover {
+    text-decoration: inherit;
+    color: inherit; }
 
 .hero {
   background: url(../img/hero-imgs/barber-shop-desfocado.png) no-repeat center center fixed;
@@ -304,12 +311,14 @@ p {
     padding: 0; }
     .map .container .info {
       height: 40vh;
-      padding: .8rem;
+      padding: 0.8rem;
       margin: 0 auto;
       display: flex;
       flex-direction: column;
       justify-content: space-evenly; }
-      .map .container .info h1, .map .container .info h2, .map .container .info p {
+      .map .container .info h1,
+      .map .container .info h2,
+      .map .container .info p {
         margin: 0; }
     .map .container .map-container {
       position: relative;
@@ -319,5 +328,19 @@ p {
       .map .container .map-container #map {
         height: 100%;
         background-color: grey; }
+  @media (max-width: 600px) {
+    .map {
+      font-size: 0.8rem; }
+      .map h1 {
+        font-size: 2rem; }
+      .map h2 {
+        font-size: 1.25rem; } }
+  @media (max-height: 420px), (max-width: 420px) {
+    .map {
+      font-size: 0.7rem; }
+      .map h1 {
+        font-size: 1.8rem; }
+      .map h2 {
+        font-size: 1.1rem; } }
 
 /*# sourceMappingURL=main.css.map */
