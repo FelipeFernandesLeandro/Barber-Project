@@ -105,15 +105,18 @@ a {
         .about .flex-test h1 {
           font-size: 1.8rem; }
         .about .flex-test p {
-          margin-top: .25rem; } }
+          margin-top: 0.25rem; } }
     @media (max-width: 420px) {
       .about .flex-test {
         font-size: 0.8rem; }
         .about .flex-test h1 {
           font-size: 1.8rem; }
         .about .flex-test p {
-          margin-top: .25rem; } }
-  .about #arrow-down-about {
+          margin-top: 0.25rem; } }
+  .about #arrow-down-about-a {
+    position: absolute;
+    left: calc(50% - 1.5rem);
+    bottom: 3rem;
     -webkit-vendor-animation-duration: 3s;
     -moz-vendor-animation-duration: 3s;
     -ms-vendor-animation-duration: 3s;
@@ -125,11 +128,8 @@ a {
     -webkit-animation-iteration-count: infinite;
     -moz-animation-iteration-count: infinite;
     -ms-vendor-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-    bottom: 3rem;
-    position: absolute;
-    left: calc(12.5% - 1.5rem);
-    transform: translateX(-50%);
+    animation-iteration-count: infinite; }
+  .about #arrow-down-about {
     text-align: center;
     font-size: 3rem;
     margin: 5vh auto 0 auto; }
@@ -375,7 +375,10 @@ a {
   color: #ccc; }
   .gallery .container {
     margin-top: 1rem; }
-  .gallery #arrow-down-gallery {
+  .gallery #arrow-down-gallery-b {
+    position: absolute;
+    left: calc(50% - 1.5rem);
+    bottom: 3rem;
     -webkit-vendor-animation-duration: 3s;
     -moz-vendor-animation-duration: 3s;
     -ms-vendor-animation-duration: 3s;
@@ -387,11 +390,8 @@ a {
     -webkit-animation-iteration-count: infinite;
     -moz-animation-iteration-count: infinite;
     -ms-vendor-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-    bottom: 3rem;
-    position: absolute;
-    left: calc(87.5% - 1.5rem);
-    transform: translateX(-50%);
+    animation-iteration-count: infinite; }
+  .gallery #arrow-down-gallery {
     text-align: center;
     font-size: 3rem;
     color: #fff;
@@ -443,3 +443,5 @@ a {
         font-size: 1.8rem; }
       .map h2 {
         font-size: 1.1rem; } }
+
+/*# sourceMappingURL=main.css.map */
