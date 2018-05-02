@@ -62,7 +62,8 @@
     -webkit-animation-iteration-count: infinite;
     -moz-animation-iteration-count: infinite;
     -ms-vendor-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+
 
     bottom: 1rem;
     position: absolute;
@@ -75,6 +76,9 @@
     margin: 5vh auto 0 auto;
     @media (max-height: 420px) {
       display: none;
-    }
+	}
+	&:hover {
+		text-shadow: 5px 5px 1rem rgba(0, 0, 0, 0.9);
+	  }
   }
 }

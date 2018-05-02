@@ -7,6 +7,8 @@ $(document).ready(function() {
 
     responsiveSlides: true,
 
+    scrollingSpeed: 1200,
+
     onLeave: function(index, nextIndex, direction) {},
     afterLoad: function(anchorLink, index) {},
     afterRender: function() {},
@@ -15,8 +17,8 @@ $(document).ready(function() {
     afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex) {
       // NANOGALLERY2
       $("#my_nanogallery2").nanogallery2({
-        thumbnailHeight: 135,
-        thumbnailWidth: 225,
+        thumbnailHeight: 100,
+        thumbnailWidth: 200,
         thumbnailGutterWidth: 25,
         thumbnailGutterHeight: 25,
         thumbnailBorderHorizontal: 0,
@@ -25,7 +27,7 @@ $(document).ready(function() {
         galleryDisplayMode: "fullContent",
         galleryDisplayMode: "pagination",
         gallerySorting: "random",
-        thumbnailHoverEffect2: "imageScaleIn80|imageGrayOff",
+        thumbnailHoverEffect2: "imageScaleIn80|imageGrayOn",
         itemsBaseURL: "img/gallery/",
         galleryMosaic: [
           { c: 1, r: 1, w: 2, h: 1.5 },
@@ -53,7 +55,7 @@ $(document).ready(function() {
           { src: "img_14.jpg", srct: "img_14.jpg" },
           { src: "img_15.jpg", srct: "img_15.jpg" },
           { src: "img_16.jpg", srct: "img_16.jpg" },
-          { src: "img_17.jpg", srct: "img_17.jpg" },
+          { src: "img_17.jpg", srct: "img_17.jpg" }
         ]
       });
     },

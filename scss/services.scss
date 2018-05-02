@@ -43,4 +43,30 @@
       max-width: 91.666667% !important;
     }
   }
+  #arrow-down-services {
+    -webkit-vendor-animation-duration: 3s;
+    -moz-vendor-animation-duration: 3s;
+    -ms-vendor-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-vendor-animation-delay: 3.5s;
+    -moz-vendor-animation-delay: 3.5s;
+    -ms-vendor-animation-delay: 3.5s;
+    animation-delay: 3.5s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -ms-vendor-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+
+    bottom: 3rem;
+    position: absolute;
+    left: calc(37.5% - 1.5rem);
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 3rem;
+
+    margin: 5vh auto 0 auto;
+    @media (max-width: 600px), (max-height: 600px) {
+      display: none;
+    }
+  }
 }

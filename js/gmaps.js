@@ -167,10 +167,10 @@ function initMap() {
   );
   var map = new google.maps.Map(document.getElementById("map"), {
     center: {
-      lat: -23.2484764,
-      lng: -45.9016315
+      lat: -23.2486321,
+      lng: -45.9015569
     },
-    zoom: 19,
+    zoom: 16,
     mapTypeControlOptions: {
       mapTypeIds: ["roadmap", "satellite", "hybrid", "terrain", "styled_map"]
     }

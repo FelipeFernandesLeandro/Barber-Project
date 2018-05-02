@@ -31,4 +31,33 @@
 		}
 	  }
   }
+  #arrow-down-about {
+    -webkit-vendor-animation-duration: 3s;
+    -moz-vendor-animation-duration: 3s;
+    -ms-vendor-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-vendor-animation-delay: 6s;
+    -moz-vendor-animation-delay: 6s;
+    -ms-vendor-animation-delay: 6s;
+    animation-delay: 6s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -ms-vendor-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+
+    bottom: 3rem;
+    position: absolute;
+    left: calc(12.5% - 1.5rem);
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 3rem;
+
+    margin: 5vh auto 0 auto;
+    @media (max-height: 420px) {
+      display: none;
+	}
+	&:hover {
+		text-shadow: 5px 5px 1rem rgba(0, 0, 0, 0.35);
+	  }
+  }
 }
