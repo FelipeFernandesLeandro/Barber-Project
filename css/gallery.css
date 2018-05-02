@@ -8,6 +8,7 @@
     position: absolute;
     left: calc(50% - 1.5rem);
     bottom: 3rem;
+    margin: 5vh auto 0 auto;
     -webkit-vendor-animation-duration: 3s;
     -moz-vendor-animation-duration: 3s;
     -ms-vendor-animation-duration: 3s;
@@ -23,8 +24,7 @@
   .gallery #arrow-down-gallery {
     text-align: center;
     font-size: 3rem;
-    color: #fff;
-    margin: 5vh auto 0 auto; }
+    color: #fff; }
     @media (max-width: 600px), (max-height: 600px) {
       .gallery #arrow-down-gallery {
         display: none; } }

@@ -27,6 +27,7 @@
     position: absolute;
     left: calc(50% - 1.5rem);
     bottom: 3rem;
+    margin: 5vh auto 0 auto;
     -webkit-vendor-animation-duration: 3s;
     -moz-vendor-animation-duration: 3s;
     -ms-vendor-animation-duration: 3s;
@@ -41,8 +42,7 @@
     animation-iteration-count: infinite; }
   .about #arrow-down-about {
     text-align: center;
-    font-size: 3rem;
-    margin: 5vh auto 0 auto; }
+    font-size: 3rem; }
     @media (max-height: 420px) {
       .about #arrow-down-about {
         display: none; } }
